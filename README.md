@@ -76,8 +76,6 @@ g++ -o [source ...] [source.cpp ...] -ljsoncpp
 ## Project build
 ---
 ```console
-git clone https://ecremmoce@dev.azure.com/ecremmoce/Ecremmoce/_git/EcKiosk
-cd EcKiosk
 
 mkdir build
 
@@ -85,7 +83,7 @@ cd ./build
 cmake ..
 make
 
-./EcKioskApp
+./KioskApp
 ```
 
 # CMake README
